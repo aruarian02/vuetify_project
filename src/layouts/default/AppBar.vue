@@ -35,6 +35,9 @@
         <v-tab v-for="item in other_menus" :key="item" :value="'tab-' + item">
           {{ item }}
         </v-tab>
+        <router-link to="/datatable">
+          <v-tab> 아이구 </v-tab>
+        </router-link>
       </v-tabs>
       <v-spacer></v-spacer>
       <v-btn append-icon="mdi-logout">
